@@ -1,0 +1,66 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Test project</title>
+		<link href="css/style.css" rel="stylesheet">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<div class="container" style="width: 720px; margin: 0 auto;">
+			<header style="text-align: center;">
+				<h2>Source IT Lectures</h2>
+				
+				<nav style="color: #dcdcdc; font-size: 20px; text-decoration: none;">
+					<a class="active" href="index.html">Main</a>
+					<a href="about.html">About</a>
+					<a href="register.html">Register</a>
+					<!--a href="participants.html">Participants</a-->
+				</nav>
+
+			</header>
+
+			<section style="text-align: center;">
+				<h4>Direction courses are you interested  in?</h4>
+				<div style="display: inline-block; width: 30%;">
+					<a href="http://source-it.com.ua/it-courses/kursy-front-end-javascript/?lang=ua" ><img class="default-img" alt="Javascript" src="http://source-it.com.ua/wp-content/uploads/2015/09/js.png"></a>
+					<p>Javascript</p>
+					<button id="handler">clecik me!</button>
+				</div>
+				<div style="display: inline-block; width: 30%;">
+					<a href="http://source-it.com.ua/it-courses/java-programming/?lang=ua"><img class="default-img" alt="Java" src="http://source-it.com.ua/wp-content/uploads/2015/09/java.png"></a>
+					<p>Java</p>
+				</div>
+				<div style="display: inline-block; width: 30%;">
+					<a href="http://source-it.com.ua/it-courses/kursy-php/?lang=ua"><img class="default-img" alt="PHP"  src="http://source-it.com.ua/wp-content/uploads/2015/09/php.png"></a>
+					<p>PHP Web-development</p>
+				</div>
+			</section>
+			<footer style="text-align: center;">
+				<span>&copy; Source IT</span>
+			</footer>
+		</div>
+		<!--script type="text/javascript" >
+		var ymova = confirm('Whant create list?');
+		if (ymova == true) {
+		var ul = document.createElement('ul');
+			document.body.appendChild(ul);
+			ul.className = "spusok";
+
+			while (true) {
+			  var spusok_nav = prompt("create a list", "");
+
+			  if (!spusok_nav) {
+				break;
+			  }
+
+			  var li = document.createElement('li');
+			  li.className = "spusok_el"
+			  li.appendChild(document.createTextNode(spusok_nav));
+			  ul.appendChild(li);
+			}
+		} else {
+			alert('As u wish');
+		}
+		</script-->
+	</body>
+</html>

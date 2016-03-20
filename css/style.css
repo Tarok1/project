@@ -1,0 +1,34 @@
+body {
+	background: url(../img/fon.jpg);
+	font-family: cursive;
+}
+header {
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+header nav a {
+	text-decoration: none;
+	color: #001DFF;
+	transition: 0.5s;
+	padding: 0 10px;
+}
+header nav a:hover {
+	color: red;
+}
+section {
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+section div a img {
+	transition: 0.25s;
+}
+section div a img:hover {
+	transform: rotate(7deg);
+}
+.about_page {
+	border: 1px solid #000;
+    border-radius: 20px;
+}
+.active {
+	color: #30A244;
+}
